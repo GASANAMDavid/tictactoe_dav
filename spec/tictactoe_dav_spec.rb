@@ -9,6 +9,7 @@ RSpec.describe TictactoeDav do
     expect(false).to eq(false)
   end
 
+  
   it 'prints on outputstream' do
     expect{subject.hello}.to output("Hello\n").to_stdout
   end
